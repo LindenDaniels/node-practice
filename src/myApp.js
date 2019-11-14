@@ -31,4 +31,4 @@ app.get('/', (req, res) => {
            res.status(500).json(response)
          })
 
-module.exports = app
+module.exports = myApp
